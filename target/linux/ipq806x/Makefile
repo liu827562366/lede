@@ -25,6 +25,7 @@ DEFAULT_PACKAGES += \
 	kmod-usb3 kmod-usb-dwc3-of-simple kmod-usb-phy-qcom-dwc3 \
 	kmod-ath10k-ct wpad uboot-envtools e2fsprogs \
 	automount autosamba v2ray shadowsocks-libev-ss-redir shadowsocksr-libev-server \
-	luci-app-ipsec-vpnd luci-app-unblockmusic luci-app-zerotier ca-certificates
+	luci-app-ipsec-vpnd luci-app-unblockmusic luci-app-zerotier ca-certificates \
+	kmod-qca-nss-crypto kmod-qca-nss-drv kmod-qca-nss-gmac
 
 $(eval $(call BuildTarget))
